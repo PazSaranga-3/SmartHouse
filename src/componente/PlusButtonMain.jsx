@@ -20,7 +20,6 @@ export default function PlusButtonMain(props) {
     <div style={{display:'flex', flexDirection : 'column', alignItems : 'center'}}>
       {showDiv()}
     <div style={{ marginTop: '0', paddingTop :'10px' }}>
-      <button>button</button>
       {location.pathname === '/' && <Link to='/addRoom'><img src={BottomImg} alt="bottom" style={{ position: 'relative' }} /></Link>}
     </div>
     </div>
