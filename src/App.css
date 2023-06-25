@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+#container {
+  margin : 8px auto;
+  padding: 4px;
+  max-height: 1000px;
+  max-width: 500px;
+  border: 1px solid black ;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
