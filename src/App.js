@@ -52,7 +52,7 @@ function App() {
   return (
     <div id='container' style={{ backgroundColor: bColor }}>
       <Title />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', flexWrap: 'wrap' }}>
           <Routes>
             <Route path='/addRoom' element={<AddRoom addRoomToArry={addRoomFun} />} />
